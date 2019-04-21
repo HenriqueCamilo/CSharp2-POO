@@ -6,7 +6,17 @@ namespace _01_ByteBank
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Woraald 2019!");
+
+            ContaCorrente contaGabriela = new ContaCorrente();
+
+            contaGabriela.titular = "Gabriela";
+
+                Console.WriteLine($"conta da gabriela{contaGabriela}");
+
+
+            
+
+            Console.ReadLine();
         }
     }
 }
